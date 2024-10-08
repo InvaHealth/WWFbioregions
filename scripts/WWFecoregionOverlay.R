@@ -31,7 +31,7 @@ biome.names <- c('Tropical & Subtropical Moist Broadleaf Forests',
                  'Mangroves')
 biome.key <- data.frame('value'=seq(1,14,1), 'name'=biome.names)
 
-# plot
+# plot (warning: can take some time to plot)
 terra::plot(WWFecoregions, 'BIOME')
 
 # extract
